@@ -103,7 +103,7 @@ OLED GND  → GND
 Joystick VRX → GPIO 34
 Joystick VRY → GPIO 35
 Joystick SW  → GPIO 33 (+ 10 kΩ pull-up or use INPUT_PULLUP)
-Joystick VCC → 3.3 V
+Joystick +5V → VIN / 5V
 Joystick GND → GND
 ```
 
@@ -181,20 +181,6 @@ Then open: **http://192.168.4.1:8080**
 The page lists all captured credentials and handshake `.pcap` files available for download.
 The `.pcap` files can be opened with **Wireshark** or cracked with **hashcat** / **aircrack-ng**.
 
----
-
-## 🔑 Cracking handshakes
-
-```bash
-# Convert pcap to hashcat format
-hcxpcapngtool -o hash.hc22000 hs_YourSSID.pcap
-
-# Crack with wordlist
-hashcat -m 22000 hash.hc22000 /usr/share/wordlists/rockyou.txt
-
-# Or with aircrack-ng
-aircrack-ng hs_YourSSID.pcap -w /usr/share/wordlists/rockyou.txt
-```
 
 ---
 
