@@ -33,3 +33,7 @@ YOU NEED:
 - The ESP32 Board Manager installed
 - the code and also the patches included in the SAME DIRECTORY!!!
 - An ESP32 With an OLED Display (you can change the variables where the OLED is in the code)
+
+
+## THIS IS A HOBBY PROJECT. I WILL MABY NOT COMMIT ANY MORE CHANGES AT SOME POINT.
+
