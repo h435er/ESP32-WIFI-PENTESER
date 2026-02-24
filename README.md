@@ -29,7 +29,9 @@ The files your downloaded are the credentials from the evil twin attack OR the .
 YOU CAN MODIFY OR CHANGE THE CODE AS YOU WISH. 
 
 
-######################
-#### BY FSOCIETY #####
-######################
-
+# INSTALLATION
+YOU NEED:
+- Arduino IDE
+- The ESP32 Board Manager installed
+- the code and also the patches included in the SAME DIRECTORY!!!
+- An ESP32 With an OLED Display (you can change the variables where the OLED is in the code)
