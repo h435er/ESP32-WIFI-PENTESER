@@ -1,9 +1,7 @@
 # ESP32-WIFI-PENTESER
 
 ## DISCLAMER
-## This tool is intended for educational purposes only.
-## Use it only on networks and systems you own or have explicit permission to test.
-## Unauthorized use is illegal. The author is not responsible for any misuse.
+## This tool is intended for educational purposes only. Use it only on networks and systems you own or have explicit permission to test. Unauthorized use is illegal. The author is not responsible for any misuse.
 
 
 # USAGE
